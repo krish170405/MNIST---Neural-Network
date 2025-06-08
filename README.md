@@ -34,28 +34,9 @@ Output Layer     : 10 neurons (one for each digit class)
 
 ## Files
 
-- `mnist_train.py` — PyTorch training script
+- `mnist.ipynb` — PyTorch training script
 - `mnist.csv` — Dataset file (first column: label, rest 784 columns: pixels)
-- `loss.png` — Line plot of loss values across epochs
-- `requirements.txt` — List of dependencies
 
-## Training Loss Curve
-
-Include `loss.png` here in your GitHub repo to show the learning trajectory.
-
-## How to Run
-
-1. Install required packages:
-   ```bash
-   pip install torch pandas matplotlib scikit-learn
-   ```
-
-2. Place `mnist.csv` in the same directory as the script.
-
-3. Run the training script:
-   ```bash
-   python mnist_train.py
-   ```
 
 ## Key Learnings
 
@@ -71,7 +52,3 @@ Include `loss.png` here in your GitHub repo to show the learning trajectory.
 - Try alternate architectures like CNNs
 - Experiment with learning rate schedulers
 - Save and load model checkpoints using `torch.save`
-
-## Author
-
-This project was completed as part of a self-driven deep learning curriculum to transition from mathematical foundations to practical ML engineering.
